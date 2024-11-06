@@ -1,0 +1,20 @@
+{
+  "clubs": [
+    {
+      "id": "2",
+      "nombre": "Club de Lectura",
+      "nick": "clubDeLectura",
+      "email": "clublectura@example.com",
+      "contrasenia": "readersrule",
+      "desc": "Club para los amantes de la lectura y la literatura."
+    },
+    {
+      "id": "3",
+      "nombre": "Club de Tecnología",
+      "nick": "clubDeTecnologia",
+      "email": "clubtecnologia@example.com",
+      "contrasenia": "tech4life",
+      "desc": "Club para entusiastas de la tecnología y la innovación."
+    }
+  ]
+}

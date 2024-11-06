@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100vh;
+	margin: 0;
+	 font-family: 'Old Standard TT';
+}
+
+.columnaPrincipal {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1),
+		rgba(230, 42, 42, 0.45))
+}
+.columnaPrincipalIndex {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.container {
+	background-color: #4B0000;
+	border: 2px solid #FFD700;
+	padding: 20px;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+.form-label {
+	color: #FFD700;
+}
+
+.form-control {
+	background-color: #FFF8DC;
+	border: 1px solid #FFD700;
+}
+
+.boton {
+	background-color: #FFD700;
+	color: #4B0000;
+	border: 2px solid #000000;
+	font-weight: bold;
+}
+
+.boton:hover {
+	background-color: #ccad00;
+	color: #4B0000;
+	border: 1px solid #000000;
+	font-weight: bold;
+}
+
+.boton:active {
+	background-color: #ffec82;
+	color: #4B0000;
+	border: 1px solid #000000;
+	font-weight: bold;
+}
+
+.header {
+	background-color: #4B0000;
+	color: #FFD700;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #FFD700;
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: #373737;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	border: 3px solid rgb(51, 51, 51);
+	flex-direction: column;
+}
+
+.cabeceraArriba {
+	color: white;
+	font-size: 80%;
+	text-align: right;
+	background-color: black;
+	border-bottom: 1px solid #FFD700;
+}
+
+.cabeceraAbajo {
+	color: white;
+	font-size: 120%;
+	background-color: rgb(51, 51, 51);
+	
+}
+.cabeceraAbajo:hover {
+	color: rgb(255, 255, 85);
+	
+}
+
+
+.botonContactar {
+	font-size: 100%;
+	background-color: #4B0000;
+	border-radius: 29px;
+	width: 100%;
+	height: 92%;
+	border: 2px solid white;
+}
+
+.botonContactar:hover {
+	font-size: 100%;
+	background-color: rgb(255, 0, 0);
+	border-radius: 29px;
+	width: 100%;
+	height: 92%;
+	border: 2px solid white;
+}
