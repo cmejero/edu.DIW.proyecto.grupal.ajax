@@ -46,7 +46,7 @@ async function registrarClub() {
                 }
 
                 // Obtener el ID más alto de los clubs registrados
-                const maxId = clubs.reduce((max, club) => (club.id > max ? club.id : max), 0);
+                const maxId = Number(clubs.reduce((max, club) => (club.id > max ? club.id : max), 0));
                 const newId = maxId + 1;
 
                 // Crear objeto del nuevo club con ID y contraseña encriptada
