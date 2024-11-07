@@ -7,7 +7,7 @@ function eliminarClub() {
     const confirmacion = confirm(`¿Estás seguro de que quieres eliminar el club con el NICK: ${nick}?`);
 
     if (confirmacion) {
-        fetch('http://localhost:8080/deleteClub', {
+        fetch('http://localhost:3000/deleteClub', {
             method: 'DELETE', // Asegúrate de que este es el método correcto
             headers: {
                 'Content-Type': 'application/json'
